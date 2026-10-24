@@ -38,3 +38,16 @@ Smallholder farmers face steep intermediary price deductions at wholesale distri
 - **Author:** Dilshani Rathnayake
 - **Role:** Lead Business Analyst & Agile Project Coordinator
 - **Affiliation:** Department of Computing and Information Systems, Sabaragamuwa University of Sri Lanka
+
+- ---
+
+##  Process & Architecture Models (Day 3)
+
+### 1. UML Use Case Architecture
+![HarvestLink Use Case Diagram](assets/usecase-diagram.png)
+
+### 2. End-to-End Business Process (BPMN / Activity Workflow)
+![HarvestLink Activity Flowchart](assets/activity-flowchart.png)
+
+### 3. Data Architecture & Relational ERD
+![HarvestLink ERD Diagram](assets/erd-diagram.png)
