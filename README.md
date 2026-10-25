@@ -130,3 +130,38 @@ A User Story is marked complete only when:
 Sprint 1 progress and backlog items are visually tracked via the Agile Delivery Board:
 
  **Agile Kanban Board:** [View HarvestLink Delivery Board](https://trello.com/invite/b/6add731bece4478de0449dae/ATTI3e568abd1ab1b28ee0d3b27f16b0e92834DA106E/harvestlink-agile-delivery-board)
+
+ ---
+
+## Phase 5: Risk Register, UAT & Quality Acceptance (Day 5)
+
+### 1. Risk Register & Mitigation Strategy
+AgriTech platforms require strict safeguards against agricultural price drops, climate events, and contract breaches.
+
+| Risk ID | Risk Description | Severity | Likelihood | Mitigation Strategy | Owner |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **RSK-01** | **Side-Selling / Breach:** Farmer defaults on delivery to sell elsewhere at peak price. | High | Medium | Non-refundable escrow deposit held; automatic platform suspension & insurance disqualification. | BA / Operations |
+| **RSK-02** | **External API Outage:** Weather data service goes down during rainfall trigger validation. | High | Low | Multi-source fallback (Secondary satellite feeds with 12-hour offline buffer queue). | Tech Lead |
+| **RSK-03** | **Buyer Escrow Default:** Buyer fails to clear the remaining 80% balance upon delivery. | High | Low | 20% advance released immediately to the farmer; produce auctioned via partner logistics. | Product Owner |
+| **RSK-04** | **Low Digital Adoption:** Smallholder farmers struggle with smartphone UI. | Medium | High | Simplified voice prompts in local languages (Sinhala/Tamil) and USSD/SMS fallback. | UI/UX Lead |
+
+---
+
+### 2. User Acceptance Testing (UAT) Scenarios
+
+* **Scenario 1: End-to-End Forward Contract Execution**
+  * **Role:** Sunil (Farmer), Dinesh (Buyer)
+  * **Test Steps:** Farmer registers 500kg cabbage; Buyer deposits 20% LKR advance; System locks funds in Escrow.
+  * **Acceptance Criteria:** Contract status moves to `Escrow Locked`; SMS confirmation dispatched to both parties within 3 seconds.
+
+* **Scenario 2: Automated Parametric Insurance Payout**
+  * **Role:** System Automation (Weather Feed)
+  * **Test Steps:** Simulated rainfall deficit drops below 30mm over 14 consecutive days.
+  * **Acceptance Criteria:** Parametric smart contract executes within 60 minutes; compensation transferred to farmer's wallet without manual claims assessment.
+
+---
+
+### 3. Formal Quality Acceptance & Sign-off
+* **Zero Critical / Blocker Defects:** Verified via automated regression suites.
+* **Traceability Complete:** 100% of User Stories mapped to testable Gherkin acceptance criteria.
+* **Sign-off Status:** **Approved & Ready for Deployment (v1.0.0)**
