@@ -1,4 +1,4 @@
-# HarvestLink — Pre-Harvest Forward Contracts & Parametric Micro-Insurance Platform
+# HarvestLink  Pre-Harvest Forward Contracts & Parametric Micro-Insurance Platform
 
 > An industry-standard Agile Business Analysis and Product Ownership portfolio artifact designed to bridge price volatility and climate risks for smallholder vegetable farmers in Sri Lanka.
 
