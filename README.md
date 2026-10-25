@@ -66,3 +66,57 @@ The product backlog was prioritized using the **MoSCoW framework** and estimated
 ![HarvestLink Trello Board](assets/trello-board-view.png)
 
 **Interactive Agile Board:** [View Live HarvestLink Trello Board](https://trello.com/invite/b/6add731bece4478de0449dae/ATTI3e568abd1ab1b28ee0d3b27f16b0e92834DA106E/harvestlink-agile-delivery-board)
+---
+
+## 🏃 Phase 4: Agile Sprint Planning & Backlog Management (Day 4)
+
+### 1. Sprint Framework & Planning Parameters
+HarvestLink adopts a standard **Scrum** framework with 2-week iterations to ensure rapid value delivery and feedback loops.
+
+* **Sprint Duration:** 2 Weeks (10 Business Days)
+* **Team Velocity:** **21 Story Points** (based on team capacity)
+* **Sprint 1 Primary Goal:** Enable smallholder farmers to list crops and agro-buyers to lock contracts via a 20% upfront escrow deposit.
+
+---
+
+### 2. MoSCoW Prioritization & Story Point Estimation
+Work items are prioritized using MoSCoW and sized using standard **Fibonacci Story Points (1, 2, 3, 5, 8, 13)** based on complexity, risk, and dependencies.
+
+| ID | User Story Title | MoSCoW Priority | Story Points | Sprint Target |
+| :--- | :--- | :--- | :--- | :--- |
+| **US-01** | Farmer Land & Crop Profile Onboarding | **Must Have** | **5** | Sprint 1 |
+| **US-02** | Forward Contract Creation & Floor Pricing | **Must Have** | **8** | Sprint 1 |
+| **US-03** | Buyer Escrow Deposit & Milestone Holding | **Must Have** | **8** | Sprint 1 |
+| **US-04** | Growth Milestone Tracking via Geo-Photos | Should Have | 5 | Sprint 2 |
+| **US-05** | Weather-Triggered Parametric Payout | Should Have | 8 | Sprint 2 |
+| **US-06** | Produce Inspection & Escrow Release | Should Have | 5 | Sprint 2 |
+| **US-07** | Low-Connectivity SMS Notification Fallback | Could Have | 3 | Backlog |
+| **US-08** | Multi-Currency Cross-Border Settlement | Won't Have | 13 | Future Scope |
+
+> **Sprint 1 Committed Velocity:** $5 + 8 + 8 = \mathbf{21\text{ Points}}$
+
+---
+
+### 3. Agile Governance: DoR & DoD
+
+#### Definition of Ready (DoR)
+A User Story is committed to a Sprint only when:
+1. Written using standard User Story format (`As a... I want to... So that...`).
+2. Acceptance Criteria defined in testable Gherkin format (`Given-When-Then`).
+3. Database entities and relations validated against the ERD.
+4. Story points estimated and agreed upon by the engineering team.
+
+#### Definition of Done (DoD)
+A User Story is marked complete only when:
+1. All functional Gherkin Acceptance Criteria pass QA validation.
+2. Unit test coverage exceeds 80%.
+3. Peer code review completed with zero open issues.
+4. Successfully deployed to the staging environment.
+5. Formal acceptance sign-off by the Business Analyst / Product Owner.
+
+---
+
+### 4. Interactive Agile Board
+Sprint 1 progress and backlog items are visually tracked via the Agile Delivery Board:
+
+ **Agile Kanban Board:** [View HarvestLink Delivery Board](PASTE_YOUR_TRELLO_LINK_HERE)
