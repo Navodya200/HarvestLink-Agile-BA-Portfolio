@@ -51,3 +51,18 @@ Smallholder farmers face steep intermediary price deductions at wholesale distri
 
 ### 3. Data Architecture & Relational ERD
 ![HarvestLink ERD Diagram](assets/erd-diagram.png)
+
+---
+
+##  Agile Sprint Planning & Delivery Board (Day 4)
+
+### Sprint 1 Overview & Delivery Board
+The product backlog was prioritized using the **MoSCoW framework** and estimated with **Fibonacci Story Points**. Sprint 1 focuses on foundational onboarding, contract generation, and escrow locking.
+
+* **Sprint Cadence:** 2 Weeks
+* **Committed Velocity:** 21 Story Points
+* **Sprint Goal:** Enable a smallholder farmer to register land/crops and execute a forward contract secured by a 20% buyer escrow deposit.
+
+![HarvestLink Trello Board](assets/trello-board-view.png)
+
+**Interactive Agile Board:** [View Live HarvestLink Trello Board](PASTE_YOUR_TRELLO_LINK_HERE)
