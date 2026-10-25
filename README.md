@@ -11,7 +11,7 @@
 Smallholder farmers face steep intermediary price deductions at wholesale distribution hubs and recurrent climate damage. Commercial grocery chains simultaneously struggle with supply predictability and quality inspection. **HarvestLink** introduces a forward contract marketplace combined with a milestone-based crop tracking module and automated parametric rainfall insurance.
 
 ---
-### 🛠️ Technology Stack & BA Tooling
+###  Technology Stack & BA Tooling
 | Layer | Tooling & Technology |
 | :--- | :--- |
 | **Requirements & Agile Tracking** | Jira, Trello, Confluence, Gherkin / Cucumber |
