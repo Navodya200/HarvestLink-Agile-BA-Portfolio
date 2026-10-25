@@ -1,4 +1,11 @@
 # HarvestLink — Pre-Harvest Forward Contracts & Parametric Micro-Insurance Platform
+### Technology Stack & BA Tooling
+| Layer | Tooling & Technology |
+| :--- | :--- |
+| **Requirements & Agile Tracking** | Jira, Trello, Confluence, Gherkin / Cucumber |
+| **Visual Architecture Modeling** | PlantUML, BPMN 2.0, ERD, Lucidchart |
+| **Core Architecture & Integrations** | RESTful APIs, OpenWeatherMap API, Escrow Payment Gateways |
+| **Documentation & Version Control** | Markdown, Git, GitHub Enterprise |
 
 > An industry-standard Agile Business Analysis and Product Ownership portfolio artifact designed to bridge price volatility and climate risks for smallholder vegetable farmers in Sri Lanka.
 
