@@ -5,6 +5,12 @@
 
 
 ---
+
+
+##  Executive Summary
+Smallholder farmers face steep intermediary price deductions at wholesale distribution hubs and recurrent climate damage. Commercial grocery chains simultaneously struggle with supply predictability and quality inspection. **HarvestLink** introduces a forward contract marketplace combined with a milestone-based crop tracking module and automated parametric rainfall insurance.
+
+---
 ### 🛠️ Technology Stack & BA Tooling
 | Layer | Tooling & Technology |
 | :--- | :--- |
@@ -12,11 +18,6 @@
 | **Visual Architecture Modeling** | PlantUML, BPMN 2.0, ERD, Lucidchart |
 | **Core Architecture & Integrations** | RESTful APIs, OpenWeatherMap API, Escrow Payment Gateways |
 | **Documentation & Version Control** | Markdown, Git, GitHub Enterprise |
-
-##  Executive Summary
-Smallholder farmers face steep intermediary price deductions at wholesale distribution hubs and recurrent climate damage. Commercial grocery chains simultaneously struggle with supply predictability and quality inspection. **HarvestLink** introduces a forward contract marketplace combined with a milestone-based crop tracking module and automated parametric rainfall insurance.
-
----
 
 ##  Repository Artifacts
 - **[Project Charter (PDF)](docs/HarvestLink_Project_Charter_v1.0.pdf)** — Baseline scope boundaries, stakeholder mapping, and project governance.
