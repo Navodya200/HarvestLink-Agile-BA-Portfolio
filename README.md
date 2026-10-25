@@ -65,4 +65,4 @@ The product backlog was prioritized using the **MoSCoW framework** and estimated
 
 ![HarvestLink Trello Board](assets/trello-board-view.png)
 
-**Interactive Agile Board:** [View Live HarvestLink Trello Board](PASTE_YOUR_TRELLO_LINK_HERE)
+**Interactive Agile Board:** [View Live HarvestLink Trello Board](https://trello.com/invite/b/6add731bece4478de0449dae/ATTI3e568abd1ab1b28ee0d3b27f16b0e92834DA106E/harvestlink-agile-delivery-board)
