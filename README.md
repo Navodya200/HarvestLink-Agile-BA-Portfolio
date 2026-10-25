@@ -119,4 +119,4 @@ A User Story is marked complete only when:
 ### 4. Interactive Agile Board
 Sprint 1 progress and backlog items are visually tracked via the Agile Delivery Board:
 
- **Agile Kanban Board:** [View HarvestLink Delivery Board](PASTE_YOUR_TRELLO_LINK_HERE)
+ **Agile Kanban Board:** [View HarvestLink Delivery Board](https://trello.com/invite/b/6add731bece4478de0449dae/ATTI3e568abd1ab1b28ee0d3b27f16b0e92834DA106E/harvestlink-agile-delivery-board)
